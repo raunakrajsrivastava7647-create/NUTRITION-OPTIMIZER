@@ -1,0 +1,32 @@
+# Food Waste → Nutrition Optimizer
+# Run Instructions
+
+1. **Clone or Download the Project**
+   If using Git:
+       git clone https://github.com/<your-username>/food-waste-nutrition-optimizer.git
+       cd food-waste-nutrition-optimizer
+
+2. **Install Python Dependencies**
+   Make sure you have Python >= 3.10 installed.
+   Then run:
+       pip install -r requirements.txt
+
+3. **Run the Streamlit Application**
+   In the project folder, execute:
+       streamlit run food_waste_nutrition_optimizer.py
+
+4. **Using the App**
+   - The app will open in your default web browser.
+   - Use the sidebar to:
+       * Adjust the number of regions
+       * Change recovery efficiency
+       * Set transport loss per distance
+       * Modify calorie demand per person
+       * Change random seed for reproducible synthetic data
+   - View metrics, bar charts, heatmaps, spatial flows, and the allocation table.
+
+5. **Optional**
+   - Take screenshots of the visualizations for presentations.
+   - Use the allocation table to generate reports manually.
+
+# Enjoy exploring sustainable food redistribution! 🌱
